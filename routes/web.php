@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,8 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// route sementara
-Route::get('/home',function(){
-    $data = ["title"=>"Home"];
-    return view('webs.home',$data);
-});
+Route::get('/home',[DashboardController::class,'index']);
