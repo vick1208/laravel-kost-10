@@ -1,10 +1,13 @@
 @extends('layout')
 
 @section('main')
-<h1 class="font-bold font-sans text-6xl">Dashboard</h1>
-<table class="table-auto">
+<div class="row-span-1">
+  
+  <h1 class="font-bold font-sans text-6xl text-red-300 text-center">Dashboard</h1>
+</div>
+<table class="table-auto items-center p-40">
     <thead>
-      <tr>
+      <tr class="font-sans">
         <th>Song</th>
         <th>Artist</th>
         <th>Year</th>

@@ -8,6 +8,6 @@ class DashboardController extends Controller
 {
     public function index()  {
         $data = ["title"=>"Home"];
-        return view('webs.home',$data);
+        return view("webs.index",$data);
     }
 }
