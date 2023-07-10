@@ -1,16 +1,17 @@
 @extends('layout')
 
 @section('main')
-<div class="row-span-1">
-  
-  <h1 class="font-bold font-sans text-6xl text-red-300 text-center">Dashboard</h1>
+<div class="flex row-span-1 justify-center m-5 p-3">
+  <h1 class="font-thin font-sans text-6xl text-gray-500 text-center m-3 p-3 bg-sky-200 rounded">Dashboard</h1>
 </div>
-<table class="table-auto items-center p-40">
+
+<div class="flex justify-center ">
+  <table class="shadow-lg bg-slate-300 rounded-xl">
     <thead>
-      <tr class="font-sans">
-        <th>Song</th>
-        <th>Artist</th>
-        <th>Year</th>
+      <tr>
+        <th class="bg-sky-300 border  text-center px-8 py-4 rounded-tl-xl">Song</th>
+        <th class="bg-sky-300 border text-center px-8 py-4 rounded">Artist</th>
+        <th class="bg-sky-300 border text-center px-8 py-4 rounded-tr-xl">Year</th>
       </tr>
     </thead>
     <tbody>
@@ -31,6 +32,8 @@
       </tr>
     </tbody>
   </table>
-    
-@endsection
 
+</div>
+
+
+@endsection

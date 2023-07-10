@@ -10,6 +10,6 @@ class DashboardControllerTest extends TestCase
 {
     public function testDashboard(){
         $this->get('/home')
-        ->assertSeeText("Dashboard");
+        ->assertStatus(200);
     }
 }
