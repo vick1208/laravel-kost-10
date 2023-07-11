@@ -10,6 +10,6 @@ class DashboardController extends Controller
     {
         //   Disini akan dibuat webpage dashboard untuk kost
         $data = ["title" => "Home", "test" => "Sudah Ok"];
-        return view("webs.index", $data);
+        return view("webs.dash",$data);
     }
 }
