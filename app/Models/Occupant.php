@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Occupant extends Model
 {
     use HasFactory;
+    protected $table = "occupants";
+    protected $primaryKey = "id";
+    protected $keyType = "int";
+    public $incrementing = true;
 }

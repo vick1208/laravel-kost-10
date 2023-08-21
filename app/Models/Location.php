@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Location extends Model
 {
     use HasFactory;
+    protected $table = "locations";
+    protected $primaryKey = "id";
+    protected $keyType = "int";
+    public $incrementing = true;
+
+    public $fillable =['name'];
 }
