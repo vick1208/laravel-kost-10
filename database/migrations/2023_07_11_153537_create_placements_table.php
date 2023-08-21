@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('placements', function (Blueprint $table) {
             $table->id();
+            $table->foreignId("room_id");
+            $table->foreignId("occupant_id");
+            $table->date('check_in_date')->nullable();
+            $table->date('check_out_date')->nullable();
             $table->timestamps();
         });
     }

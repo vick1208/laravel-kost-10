@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('occupants', function (Blueprint $table) {
             $table->id();
+            $table->string('name',100);
+            $table->string('gender')->nullable(false)->default("Female");
+            $table->string('birth_place',100);
+            $table->date('birth_date');
+            $table->string('origin_city',100);
+            $table->string('phone_number',100)->nullable();
             $table->timestamps();
         });
     }
