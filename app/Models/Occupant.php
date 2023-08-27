@@ -12,4 +12,6 @@ class Occupant extends Model
     protected $primaryKey = "id";
     protected $keyType = "int";
     public $incrementing = true;
+    public $timestamps = true;
+
 }

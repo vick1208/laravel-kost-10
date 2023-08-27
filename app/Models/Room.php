@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Room extends Model
 {
@@ -20,4 +22,10 @@ class Room extends Model
         "code",
         "capacity",
     ];
+    public function location() : BelongsTo {
+        return $this->belongsTo(Location::class);
+    }
+    public function placements() : HasMany {
+        return $this->hasMany(Placement::class);
+    }
 }
