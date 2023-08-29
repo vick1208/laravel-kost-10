@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Placement extends Model
 {
     use HasFactory;
-    protected $table = "locations";
+    protected $table = "placements";
     protected $primaryKey = "id";
     protected $keyType = "int";
     public $incrementing = true;
