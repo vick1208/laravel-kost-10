@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId("room_id")->constrained();
             $table->foreignId("occupant_id")->constrained();
-            $table->date('check_in_date')->nullable();
+            $table->date('check_in_date');
             $table->date('check_out_date')->nullable();
             $table->timestamps();
         });

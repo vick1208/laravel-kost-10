@@ -6,7 +6,7 @@
 </div>
 
 <div class="flex justify-center ">
-    <table class="shadow-lg bg-slate-300 rounded-xl">
+    <table class="shadow-lg bg-slate-100 rounded-xl">
         <thead>
             <tr>
                 <th class="bg-sky-300 border text-center px-8 py-4 rounded-tl-xl">#</th>
@@ -30,7 +30,7 @@
             </tr>
             @empty
             <tr>
-                <td class="border px-5 py-5 row-auto">Belum ada data</td>
+                <td class="text-center" colspan="4">Belum ada data</td>
             </tr>
 
             @endforelse

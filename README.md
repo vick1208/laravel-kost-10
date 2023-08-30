@@ -67,15 +67,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 # Judul Project
 
-Manajemen Penghuni Kost
-
-## Durasi Pembuatan Project
-
-Project ini bersifat open-source.
-
-Update syntax tidak sering saya push di github.
+Project Sistem Manajemen Penghuni Kost
 
 ## Catatan Project
 
+Project ini bersifat open-source.
 Framework css menggunakan tailwind css.
 Jalankan `npm run dev` pada terminal untuk menjalankan project.
