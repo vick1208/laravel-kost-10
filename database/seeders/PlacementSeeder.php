@@ -16,7 +16,7 @@ class PlacementSeeder extends Seeder
         Placement::create([
                 'occupant_id' => 1,
                 'room_id' => 1,
-                'check_in_date' => '2021-06-09'
+                'check_in_date' => '2023-06-09'
             ]);
     }
 }
