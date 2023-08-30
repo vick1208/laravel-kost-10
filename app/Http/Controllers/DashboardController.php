@@ -29,7 +29,7 @@ class DashboardController extends Controller
         //   Disini akan dibuat webpage dashboard untuk kost
         $data = [
             "title" => "Home",
-            "test" => "Sudah Ok",
+            // "test" => "Sudah Ok",
             'latest_placements' => $latest_placements,
             'num_of_rooms' => $rooms->count(),
             'num_of_rooms_unavailable' => count($placements_not_available),

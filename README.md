@@ -77,4 +77,5 @@ Update syntax tidak sering saya push di github.
 
 ## Catatan Project
 
-Jalankan `npm run dev` pada terminal untuk menjalankan front end project.
+Framework css menggunakan tailwind css.
+Jalankan `npm run dev` pada terminal untuk menjalankan project.
