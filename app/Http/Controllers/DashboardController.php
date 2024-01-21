@@ -35,6 +35,6 @@ class DashboardController extends Controller
             'num_of_rooms_unavailable' => count($placements_not_available),
             'num_of_occupants' => count($active_occupants),
         ];
-        return view("pages.dash", $data);
+        return view("pages.index", $data);
     }
 }
